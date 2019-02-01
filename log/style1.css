@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+#image-container {
+	height: 160vh;
+	width: 100%;
+	animation: slideshow 60s  infinite;
+	background-position: ;
+	background-size: 150%;
+	background-image: url("./img/BMW1.jpg");
+}
+
+@keyframes slideshow {
+	0% {
+		background-position: center;
+		background-image: url("./img/BMW1.jpg");
+	}
+	25% {
+		background-position: center;
+		background-image: url("./img/BMW2.jpg");
+	}
+	75% {
+		background-position: center;
+		background-image: url("./img/BMW3.jpg");
+	}
+	100% {
+		background-position: center;
+		background-image: url("./img/BMW1.jpg");
+	}
+}
+
+  .loginbox{
+    width: 460px;
+    height: 820px;
+    background:linear-gradient(rgba(0, 76, 124, 0.692), rgba(0, 42, 72, 0.637));
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 5%;
+  }
+  .avatar{
+    background:linear-gradient(rgb(0, 77, 124, 1), rgb(0, 42, 72, 1));
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: calc(50% - 50px);
+  }
+  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  .loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .loginbox input[type="text"], input[type="password"], input[type="email"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    background: transparent;
+    outline:none;
+    height: 40px;
+  
+  
+  }
+  .loginbox input[type="submit"], .loginbox input[type="reset"]{
+    border:none;
+    outline: none;
+    background:linear-gradient( rgb(230, 56, 57, 1 ), rgb(186, 25, 23, 1));
+    color: #fff;
+    height: 40px;
+    width: 45%;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 40px;
+  }
+  .loginbox input[type="submit"]:hover, .loginbox input[type="reset"]:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(97, 158, 213, 1), rgb(25, 97, 160, 1));
+    color:white;
+    
+  }
+  .loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+  }
+  .loginbox a:hover{
+    color: #ffffff;
+  }
+.but1{
+float: left;
+}
+.but2{
+float: right;
+}
+.sex input {
+  display: inline-block;
+  width: 60%;
+}
